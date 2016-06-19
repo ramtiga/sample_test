@@ -1,0 +1,19 @@
+.rspec
+.env
+.pryrc
+.yardoc
+
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+**.swp
+
+/config/database.yml
+/config/application.yml
+/config/secrets.yml
+spec/examples.txt
+/doc
