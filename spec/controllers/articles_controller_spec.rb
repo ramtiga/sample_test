@@ -124,11 +124,11 @@ RSpec.describe ArticlesController, type: :controller do
       }.to change(Article, :count).by(-1)
     end
 
+    # test
     # it "redirects to the articles list" do
     #   article = Article.create! valid_attributes
     #   delete :destroy, {:id => article.to_param}, valid_session
     #   expect(response).to redirect_to(articles_url)
     # end
   end
-
 end
